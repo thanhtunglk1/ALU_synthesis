@@ -14,7 +14,7 @@ module synth_wrapper(
    reg       carry_reg;
 
    always@(posedge clk, negedge rst_n) begin
-      if(!rst_n) begin
+      if(~rst_n) begin
          a_reg  <= 4'b0;
          b_reg  <= 4'b0;
          op_reg <= 3'b0;
