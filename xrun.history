@@ -1,0 +1,7 @@
+s1(17May2025:12:02:25):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 
+s2(17May2025:12:05:12):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 
+s3(17May2025:12:05:48):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 
+s4(17May2025:12:46:15):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 
+s5(17May2025:12:48:44):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 
+s6(18May2025:10:39:58):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 
+s7(18May2025:10:40:38):  xrun +xm64bit -sv -vlogext .sv -f 00_src/flist.f 01_tb/testbench.v -timescale 1ns/10ps +access+rcw 

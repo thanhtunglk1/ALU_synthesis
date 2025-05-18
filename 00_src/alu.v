@@ -33,9 +33,9 @@ module alu(
             default: p_result = 4'b0000 ;
         endcase
 
-        p_carry = (op[2] | op[1]) ? 1'b0 : c;
+        p_carry = ~(op[2] | op[1]) & c;
     end
-
+    
     always @(posedge clk, negedge rst_n) begin
         if (~rst_n) begin
             result <= 4'b0000;

@@ -1,6 +1,6 @@
 module alu_tb();
     // Parameter
-    parameter N = 50; // Số lần random cho mỗi phép toán, có thể sửa đổi
+    parameter N = 100; // Số lần random cho mỗi phép toán, có thể sửa đổi
 
     // Signals
     reg clk;
