@@ -1,7 +1,7 @@
 (DELAYFILE
   (SDFVERSION  "OVI 3.0")
   (DESIGN      "synth_wrapper")
-  (DATE        "Sat May 17 05:33:18 -0400 2025")
+  (DATE        "Sun May 18 10:43:38 -0400 2025")
   (VENDOR      "Cadence, Inc.")
   (PROGRAM     "Genus(TM) Synthesis Solution")
   (VERSION     "GENUS15.20 - 15.20-p004_1")
@@ -75,7 +75,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g8769)
+     (INSTANCE alu_design.g8775)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -129,7 +129,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g8788)
+     (INSTANCE alu_design.g8794)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -143,7 +143,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__and4_1")
-     (INSTANCE alu_design.g8789)
+     (INSTANCE alu_design.g8795)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -159,7 +159,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g8792)
+     (INSTANCE alu_design.g8798)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -171,7 +171,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a21oi_2")
-     (INSTANCE alu_design.g8793)
+     (INSTANCE alu_design.g8799)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -185,7 +185,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nor2_1")
-     (INSTANCE alu_design.g8801)
+     (INSTANCE alu_design.g8807)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -197,7 +197,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g8802)
+     (INSTANCE alu_design.g8808)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -209,7 +209,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o2bb2ai_1")
-     (INSTANCE alu_design.g8804)
+     (INSTANCE alu_design.g8810)
      (DELAY
         (ABSOLUTE
           (PORT A1_N (::0.0))
@@ -225,7 +225,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o221ai_1")
-     (INSTANCE alu_design.g8806)
+     (INSTANCE alu_design.g8812)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -243,7 +243,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o2bb2ai_2")
-     (INSTANCE alu_design.g8807)
+     (INSTANCE alu_design.g8813)
      (DELAY
         (ABSOLUTE
           (PORT A1_N (::0.0))
@@ -259,7 +259,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a21oi_1")
-     (INSTANCE alu_design.g8809)
+     (INSTANCE alu_design.g8815)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -273,7 +273,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g8811)
+     (INSTANCE alu_design.g8817)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -285,7 +285,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o21a_2")
-     (INSTANCE alu_design.g8812)
+     (INSTANCE alu_design.g8818)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -299,7 +299,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a31oi_1")
-     (INSTANCE alu_design.g8814)
+     (INSTANCE alu_design.g8820)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -315,7 +315,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o32a_1")
-     (INSTANCE alu_design.g8818)
+     (INSTANCE alu_design.g8824)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -333,7 +333,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o2bb2ai_2")
-     (INSTANCE alu_design.g8827)
+     (INSTANCE alu_design.g8833)
      (DELAY
         (ABSOLUTE
           (PORT A1_N (::0.0))
@@ -349,7 +349,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o22ai_1")
-     (INSTANCE alu_design.g8833)
+     (INSTANCE alu_design.g8839)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -365,7 +365,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g8834)
+     (INSTANCE alu_design.g8840)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -377,7 +377,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g8841)
+     (INSTANCE alu_design.g8847)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -389,7 +389,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__or2_1")
-     (INSTANCE alu_design.g8851)
+     (INSTANCE alu_design.g8857)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -401,7 +401,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_4")
-     (INSTANCE alu_design.g8857)
+     (INSTANCE alu_design.g8863)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.1))
@@ -413,7 +413,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a2bb2oi_1")
-     (INSTANCE alu_design.g8865)
+     (INSTANCE alu_design.g8871)
      (DELAY
         (ABSOLUTE
           (PORT A1_N (::0.0))
@@ -429,7 +429,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o2bb2ai_2")
-     (INSTANCE alu_design.g8866)
+     (INSTANCE alu_design.g8872)
      (DELAY
         (ABSOLUTE
           (PORT A1_N (::0.0))
@@ -445,7 +445,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_1")
-     (INSTANCE alu_design.g8873)
+     (INSTANCE alu_design.g8879)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -455,7 +455,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8875)
+     (INSTANCE alu_design.g8881)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -465,7 +465,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_1")
-     (INSTANCE alu_design.g8878)
+     (INSTANCE alu_design.g8884)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -475,7 +475,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g8880)
+     (INSTANCE alu_design.g8886)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -487,7 +487,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nor2_1")
-     (INSTANCE alu_design.g8884)
+     (INSTANCE alu_design.g8890)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -499,7 +499,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g8887)
+     (INSTANCE alu_design.g8893)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -511,7 +511,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g8896)
+     (INSTANCE alu_design.g8902)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -523,7 +523,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__and2_1")
-     (INSTANCE alu_design.g8899)
+     (INSTANCE alu_design.g8905)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -535,7 +535,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8905)
+     (INSTANCE alu_design.g8911)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -545,7 +545,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_1")
-     (INSTANCE alu_design.g8907)
+     (INSTANCE alu_design.g8913)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -555,7 +555,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_1")
-     (INSTANCE alu_design.g8908)
+     (INSTANCE alu_design.g8914)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -565,7 +565,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_4")
-     (INSTANCE alu_design.g8909)
+     (INSTANCE alu_design.g8915)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -575,7 +575,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8915)
+     (INSTANCE alu_design.g8921)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -585,7 +585,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_1")
-     (INSTANCE alu_design.g8916)
+     (INSTANCE alu_design.g8922)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -595,7 +595,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8921)
+     (INSTANCE alu_design.g8927)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -605,7 +605,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8923)
+     (INSTANCE alu_design.g8929)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -615,7 +615,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8926)
+     (INSTANCE alu_design.g8932)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -625,7 +625,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_1")
-     (INSTANCE alu_design.g8933)
+     (INSTANCE alu_design.g8939)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -635,7 +635,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8934)
+     (INSTANCE alu_design.g8940)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -645,7 +645,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_1")
-     (INSTANCE alu_design.g8937)
+     (INSTANCE alu_design.g8943)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -655,7 +655,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8950)
+     (INSTANCE alu_design.g8956)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -665,7 +665,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g8951)
+     (INSTANCE alu_design.g8957)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -675,7 +675,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkbuf_1")
-     (INSTANCE alu_design.g8953)
+     (INSTANCE alu_design.g8959)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -685,7 +685,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.fopt8973)
+     (INSTANCE alu_design.fopt8979)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -709,7 +709,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g8975)
+     (INSTANCE alu_design.g8981)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -721,7 +721,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nor2b_1")
-     (INSTANCE alu_design.g8980)
+     (INSTANCE alu_design.g8986)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -733,7 +733,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g8994)
+     (INSTANCE alu_design.g9000)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -747,7 +747,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2b_1")
-     (INSTANCE alu_design.g9010)
+     (INSTANCE alu_design.g9016)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))
@@ -759,7 +759,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_1")
-     (INSTANCE alu_design.g9011)
+     (INSTANCE alu_design.g9017)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -769,7 +769,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__and2b_4")
-     (INSTANCE alu_design.g9012)
+     (INSTANCE alu_design.g9018)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))
@@ -781,7 +781,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__clkinv_1")
-     (INSTANCE alu_design.g9013)
+     (INSTANCE alu_design.g9019)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -791,7 +791,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9025)
+     (INSTANCE alu_design.g9031)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -801,7 +801,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g9026)
+     (INSTANCE alu_design.g9032)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -813,7 +813,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9027)
+     (INSTANCE alu_design.g9033)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -823,7 +823,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9029)
+     (INSTANCE alu_design.g9035)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -833,7 +833,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9030)
+     (INSTANCE alu_design.g9036)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -843,7 +843,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a21oi_1")
-     (INSTANCE alu_design.g9047)
+     (INSTANCE alu_design.g9053)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -857,7 +857,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_4")
-     (INSTANCE alu_design.g9051)
+     (INSTANCE alu_design.g9057)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -869,7 +869,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9052)
+     (INSTANCE alu_design.g9058)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -879,7 +879,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand4_2")
-     (INSTANCE alu_design.g9054)
+     (INSTANCE alu_design.g9060)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -895,7 +895,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9055)
+     (INSTANCE alu_design.g9061)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -907,7 +907,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9056)
+     (INSTANCE alu_design.g9062)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -919,7 +919,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9057)
+     (INSTANCE alu_design.g9063)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -931,7 +931,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_4")
-     (INSTANCE alu_design.g9061)
+     (INSTANCE alu_design.g9067)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.1))
@@ -941,7 +941,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nor2_2")
-     (INSTANCE alu_design.g9071)
+     (INSTANCE alu_design.g9077)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -953,7 +953,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9072)
+     (INSTANCE alu_design.g9078)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -963,7 +963,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_4")
-     (INSTANCE alu_design.g9073)
+     (INSTANCE alu_design.g9079)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.1))
@@ -975,7 +975,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9074)
+     (INSTANCE alu_design.g9080)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -985,7 +985,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o21ai_1")
-     (INSTANCE alu_design.g9075)
+     (INSTANCE alu_design.g9081)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -999,7 +999,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o221ai_2")
-     (INSTANCE alu_design.g9076)
+     (INSTANCE alu_design.g9082)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -1017,7 +1017,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a21o_1")
-     (INSTANCE alu_design.g9078)
+     (INSTANCE alu_design.g9084)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -1031,7 +1031,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__buf_1")
-     (INSTANCE alu_design.g9079)
+     (INSTANCE alu_design.g9085)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1041,7 +1041,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nor2_4")
-     (INSTANCE alu_design.g9080)
+     (INSTANCE alu_design.g9086)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.1))
@@ -1053,7 +1053,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g9081)
+     (INSTANCE alu_design.g9087)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1065,7 +1065,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nor2_1")
-     (INSTANCE alu_design.g9082)
+     (INSTANCE alu_design.g9088)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1077,7 +1077,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand4b_1")
-     (INSTANCE alu_design.g9084)
+     (INSTANCE alu_design.g9090)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))
@@ -1093,7 +1093,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_4")
-     (INSTANCE alu_design.g9085)
+     (INSTANCE alu_design.g9091)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.1))
@@ -1105,7 +1105,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__buf_6")
-     (INSTANCE alu_design.g9087)
+     (INSTANCE alu_design.g9093)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1115,7 +1115,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9088)
+     (INSTANCE alu_design.g9094)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1429,7 +1429,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9092)
+     (INSTANCE alu_design.g9098)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1441,7 +1441,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9093)
+     (INSTANCE alu_design.g9099)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1501,7 +1501,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g9094)
+     (INSTANCE alu_design.g9100)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1601,7 +1601,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__inv_2")
-     (INSTANCE alu_design.g9095)
+     (INSTANCE alu_design.g9101)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1621,7 +1621,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g9096)
+     (INSTANCE alu_design.g9102)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1635,7 +1635,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9097)
+     (INSTANCE alu_design.g9103)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1647,7 +1647,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a21oi_2")
-     (INSTANCE alu_design.g9098)
+     (INSTANCE alu_design.g9104)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -1661,7 +1661,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__a21o_1")
-     (INSTANCE alu_design.g9099)
+     (INSTANCE alu_design.g9105)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -1827,7 +1827,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g9101)
+     (INSTANCE alu_design.g9107)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1839,7 +1839,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_2")
-     (INSTANCE alu_design.g9102)
+     (INSTANCE alu_design.g9108)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1851,7 +1851,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g9103)
+     (INSTANCE alu_design.g9109)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1865,7 +1865,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3b_1")
-     (INSTANCE alu_design.g9104)
+     (INSTANCE alu_design.g9110)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))
@@ -1879,7 +1879,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand4_1")
-     (INSTANCE alu_design.g9105)
+     (INSTANCE alu_design.g9111)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1895,7 +1895,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g9106)
+     (INSTANCE alu_design.g9112)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1909,7 +1909,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9108)
+     (INSTANCE alu_design.g9114)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1957,7 +1957,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3_1")
-     (INSTANCE alu_design.g9109)
+     (INSTANCE alu_design.g9115)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1971,7 +1971,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9110)
+     (INSTANCE alu_design.g9116)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -1993,7 +1993,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2_1")
-     (INSTANCE alu_design.g9111)
+     (INSTANCE alu_design.g9117)
      (DELAY
         (ABSOLUTE
           (PORT A (::0.0))
@@ -2005,7 +2005,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__o2111ai_1")
-     (INSTANCE alu_design.g9113)
+     (INSTANCE alu_design.g9119)
      (DELAY
         (ABSOLUTE
           (PORT A1 (::0.0))
@@ -2049,7 +2049,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2b_1")
-     (INSTANCE alu_design.g9114)
+     (INSTANCE alu_design.g9120)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))
@@ -2061,7 +2061,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand2b_1")
-     (INSTANCE alu_design.g9115)
+     (INSTANCE alu_design.g9121)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))
@@ -2073,7 +2073,7 @@
   )
   (CELL
      (CELLTYPE "sky130_fd_sc_hd__nand3b_1")
-     (INSTANCE alu_design.g9116)
+     (INSTANCE alu_design.g9122)
      (DELAY
         (ABSOLUTE
           (PORT A_N (::0.0))

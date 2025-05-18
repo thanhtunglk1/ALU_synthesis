@@ -5,7 +5,7 @@ of Cadence Design Systems, Inc. in the United States and other countries.
 
 Version: GENUS15.20 - 15.20-p004_1, built Sat Nov 14 2015
 Options: -files ./03_synth/genus_shell.tcl 
-Date:    Sat May 17 05:33:08 2025
+Date:    Sun May 18 10:43:28 2025
 Host:    centos7 (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (3*12th Gen Intel(R) Core(TM) i5-12500H 18432KB)
 OS:      CentOS Linux release 7.9.2009 (Core)
 
@@ -168,7 +168,7 @@ Warning : Unreachable statements for case item. [CDFG-472]
 Info    : Done Elaborating Design. [ELAB-3]
         : Done elaborating 'synth_wrapper'.
 UM:  flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             3              4                                      elaborate
+UM:             3              5                                      elaborate
   Checking the design.
 
  	 Check Design Report
@@ -258,13 +258,12 @@ hpin:synth_wrapper/alu_design/shift_left_4bit/mux_12_18/in_1[0] 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/shift_left_4bit/mux_12_18/in_1[1] 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/shift_left_4bit/mux_12_18/in_1[2] 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/shift_left_4bit/mux_12_18/in_1[3] 	 (fanout : 1)
-hpin:synth_wrapper/alu_design/mux_36_26/in_1 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/mux_carry_40_13/in_1 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/mux_result_40_13/in_1[0] 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/mux_result_40_13/in_1[1] 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/mux_result_40_13/in_1[2] 	 (fanout : 1)
 hpin:synth_wrapper/alu_design/mux_result_40_13/in_1[3] 	 (fanout : 1)
-Total number of constant hierarchical pins in design 'synth_wrapper' : 36
+Total number of constant hierarchical pins in design 'synth_wrapper' : 35
 
 No constant connected ports in design 'synth_wrapper'
 
@@ -736,7 +735,7 @@ Multidriven hierarchical Pin(s)          0
 Multidriven unloaded net(s)              0 
 Constant Port(s)                         0 
 Constant Leaf Pin(s)                     0 
-Constant hierarchical Pin(s)            36 
+Constant hierarchical Pin(s)            35 
 Preserved leaf instance(s)               0 
 Preserved hierarchical instance(s)       0 
 Libcells with no LEF cell              428 
@@ -812,7 +811,7 @@ met5            H         1.00         1.600000
 Info    : Synthesizing. [SYNTH-1]
         : Synthesizing 'synth_wrapper' to generic gates using 'medium' effort.
 Info    : Deleting instances not driving any primary outputs. [GLO-34]
-        : Deleting 8 hierarchical instances.
+        : Deleting 7 hierarchical instances.
         : Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or above. If message is truncated set message attribute 'truncate' to false to see the complete list. To prevent this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.
 Info    : Optimizing RTL. [RTLOPT-1]
         : Optimizing RTL in 'synth_wrapper' using 'medium' effort.
@@ -821,7 +820,7 @@ Info    : Done optimizing RTL. [RTLOPT-2]
 Info    : Done synthesizing. [SYNTH-2]
         : Done synthesizing 'synth_wrapper' to generic gates.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             0              0                                      syn_generic
+UM:             1              0                                      syn_generic
 Current PLE settings:
 
 Aspect ratio        : 1.00
@@ -914,7 +913,7 @@ Operation                   Area  Neg Slk Worst Path
 Info    : Done mapping. [SYNTH-5]
         : Done mapping 'synth_wrapper'.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             2              1           -227 ps          -71.2 ps  syn_map
+UM:             1              1           -227 ps          -71.2 ps  syn_map
 Current PLE settings:
 
 Aspect ratio        : 1.00
@@ -1073,23 +1072,23 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
 
            Trick     Calls     Accepts   Attempts    Time(secs) 
 -----------------------------------------------------------
-         crr_220        29  (        3 /       25 )  1.30
+         crr_220        29  (        3 /       25 )  1.22
         crr_glob        41  (        3 /        3 )  0.03
-         crr_200        37  (       11 /       26 )  0.32
+         crr_200        37  (       11 /       26 )  0.30
         crr_glob        52  (       11 /       11 )  0.02
-         crr_300         8  (        0 /        6 )  0.09
-        crr_glob        19  (        0 /        0 )  0.01
+         crr_300         8  (        0 /        6 )  0.07
+        crr_glob        19  (        0 /        0 )  0.00
          crr_400         9  (        0 /        6 )  0.08
         crr_glob        19  (        0 /        0 )  0.01
          crr_111        23  (        1 /       19 )  0.33
         crr_glob        24  (        1 /        1 )  0.02
-         crr_210        11  (        0 /        8 )  0.14
+         crr_210        11  (        0 /        8 )  0.15
         crr_glob        19  (        0 /        0 )  0.01
-         crr_110        34  (        6 /       27 )  0.43
+         crr_110        34  (        6 /       27 )  0.42
         crr_glob        43  (        6 /        6 )  0.02
          crr_101        17  (        0 /       13 )  0.15
         crr_glob        18  (        0 /        0 )  0.01
-         crr_201        11  (        0 /        9 )  0.11
+         crr_201        11  (        0 /        9 )  0.12
         crr_glob        18  (        0 /        0 )  0.01
          crr_211        11  (        0 /        9 )  0.19
         crr_glob        18  (        0 /        0 )  0.01
@@ -1240,7 +1239,7 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
       rem_inv_qb         0  (        0 /        0 )  0.00
     seq_res_area         0  (        0 /        0 )  0.00
         io_phase        15  (        3 /        3 )  0.01
-       gate_comp        44  (        1 /        1 )  0.06
+       gate_comp        44  (        1 /        1 )  0.05
        gcomp_mog         0  (        0 /        0 )  0.00
        glob_area        11  (        5 /       11 )  0.01
        area_down        15  (        2 /        2 )  0.02
@@ -1420,7 +1419,7 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
        gate_comp        43  (        0 /        0 )  0.05
        gcomp_mog         0  (        0 /        0 )  0.00
        glob_area        11  (        0 /       11 )  0.01
-       area_down        14  (        0 /        0 )  0.02
+       area_down        14  (        0 /        0 )  0.01
   gate_deco_area         0  (        0 /        0 )  0.00
 
  
@@ -1523,10 +1522,10 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
 Info    : Done incrementally optimizing. [SYNTH-8]
         : Done incrementally optimizing 'synth_wrapper'.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             4              4             -0 ps            0.1 ps  syn_opt
+UM:             4              5             -0 ps            0.1 ps  syn_opt
 ============================================================
   Generated by:           Genus(TM) Synthesis Solution GENUS15.20 - 15.20-p004_1
-  Generated on:           May 17 2025  05:33:18 am
+  Generated on:           May 18 2025  10:43:38 am
   Module:                 synth_wrapper
   Technology library:     sky130_fd_sc_hd__tt_025C_1v80 1.0000000000
   Operating conditions:   tt_025C_1v80 
@@ -1592,5 +1591,26 @@ Beginning report datapath command
 Warning : The filename, column and line number information will not be available in the report. [RPT_DP-100]
         : The attribute for getting HDL filename and line number is not set.
         : You must set the 'hdl_track_filename_row_col' attribute to 'true' (before elaborate) to enable filename, column, and line number tracking in the datapath report.
-WARNING: This version of the tool is 3472 days old.
+WARNING: This version of the tool is 3473 days old.
+Error   : A required object parameter could not be found. [TUI-61] [parse_options]
+        : An object of type 'inst|hinst|hnet|pin|hpin|port' named 'synth_wrapper' could not be found.
+        : Check to make sure that the object exists and is of the correct type.  The 'what_is' command can be used to determine the type of an object.
+  gui_sv_highlight: highlight objects in schematic viewer 
+
+Usage: gui_sv_highlight [-append] [-center] [-color <string>] [-zoomto] [-from <pin|hpin|port>] [-to <pin|hpin|port>] <inst|hinst|hnet|pin|hpin|port>
+
+    [-append]:
+        append object to highlight list 
+    [-center]:
+        center object on schematic 
+    [-color <string>]:
+        object highlight color 
+    [-zoomto]:
+        zoom into object on schematic 
+    [-from <pin|hpin|port>]:
+        start point of net highlight 
+    [-to <pin|hpin|port>]:
+        end point of net highlight 
+    <inst|hinst|hnet|pin|hpin|port>:
+        object to highlight 
 Normal exit.
