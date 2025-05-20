@@ -5,7 +5,7 @@ of Cadence Design Systems, Inc. in the United States and other countries.
 
 Version: GENUS15.20 - 15.20-p004_1, built Sat Nov 14 2015
 Options: -files ./03_synth/genus_shell.tcl 
-Date:    Sun May 18 10:43:28 2025
+Date:    Tue May 20 07:24:51 2025
 Host:    centos7 (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (3*12th Gen Intel(R) Core(TM) i5-12500H 18432KB)
 OS:      CentOS Linux release 7.9.2009 (Core)
 
@@ -168,7 +168,7 @@ Warning : Unreachable statements for case item. [CDFG-472]
 Info    : Done Elaborating Design. [ELAB-3]
         : Done elaborating 'synth_wrapper'.
 UM:  flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             3              5                                      elaborate
+UM:             3              4                                      elaborate
   Checking the design.
 
  	 Check Design Report
@@ -820,7 +820,7 @@ Info    : Done optimizing RTL. [RTLOPT-2]
 Info    : Done synthesizing. [SYNTH-2]
         : Done synthesizing 'synth_wrapper' to generic gates.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             1              0                                      syn_generic
+UM:             0              0                                      syn_generic
 Current PLE settings:
 
 Aspect ratio        : 1.00
@@ -913,7 +913,7 @@ Operation                   Area  Neg Slk Worst Path
 Info    : Done mapping. [SYNTH-5]
         : Done mapping 'synth_wrapper'.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             1              1           -227 ps          -71.2 ps  syn_map
+UM:             2              1           -227 ps          -71.2 ps  syn_map
 Current PLE settings:
 
 Aspect ratio        : 1.00
@@ -1037,7 +1037,7 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
     merge_idload        48  (        1 /        1 )  0.00
       merge_drvr        41  (        0 /        0 )  0.00
       merge_load        41  (        0 /        0 )  0.00
-          decomp        53  (        4 /        4 )  0.04
+          decomp        53  (        4 /        4 )  0.03
         p_decomp        41  (        0 /        0 )  0.01
         levelize        41  (        0 /        0 )  0.00
         mb_split        41  (        0 /        0 )  0.00
@@ -1072,7 +1072,7 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
 
            Trick     Calls     Accepts   Attempts    Time(secs) 
 -----------------------------------------------------------
-         crr_220        29  (        3 /       25 )  1.22
+         crr_220        29  (        3 /       25 )  1.25
         crr_glob        41  (        3 /        3 )  0.03
          crr_200        37  (       11 /       26 )  0.30
         crr_glob        52  (       11 /       11 )  0.02
@@ -1080,17 +1080,17 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
         crr_glob        19  (        0 /        0 )  0.00
          crr_400         9  (        0 /        6 )  0.08
         crr_glob        19  (        0 /        0 )  0.01
-         crr_111        23  (        1 /       19 )  0.33
+         crr_111        23  (        1 /       19 )  0.34
         crr_glob        24  (        1 /        1 )  0.02
-         crr_210        11  (        0 /        8 )  0.15
+         crr_210        11  (        0 /        8 )  0.14
         crr_glob        19  (        0 /        0 )  0.01
-         crr_110        34  (        6 /       27 )  0.42
+         crr_110        34  (        6 /       27 )  0.43
         crr_glob        43  (        6 /        6 )  0.02
          crr_101        17  (        0 /       13 )  0.15
         crr_glob        18  (        0 /        0 )  0.01
          crr_201        11  (        0 /        9 )  0.12
         crr_glob        18  (        0 /        0 )  0.01
-         crr_211        11  (        0 /        9 )  0.19
+         crr_211        11  (        0 /        9 )  0.20
         crr_glob        18  (        0 /        0 )  0.01
         crit_msz        25  (        7 /        7 )  0.02
        crit_upsz        27  (        3 /        4 )  0.01
@@ -1107,7 +1107,7 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
        crit_swap        15  (        0 /        0 )  0.00
        mux2_swap        15  (        0 /        0 )  0.00
        crit_dnsz        41  (        3 /        3 )  0.01
-       load_swap        19  (        0 /        0 )  0.00
+       load_swap        19  (        0 /        0 )  0.01
             fopt        34  (        0 /        0 )  0.00
         setup_dn        34  (        0 /        0 )  0.00
        load_isol        42  (        1 /        1 )  0.02
@@ -1522,10 +1522,10 @@ Operation                   Area  Neg Slk     Slack    Trans      Cap
 Info    : Done incrementally optimizing. [SYNTH-8]
         : Done incrementally optimizing 'synth_wrapper'.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:             4              5             -0 ps            0.1 ps  syn_opt
+UM:             4              4             -0 ps            0.1 ps  syn_opt
 ============================================================
   Generated by:           Genus(TM) Synthesis Solution GENUS15.20 - 15.20-p004_1
-  Generated on:           May 18 2025  10:43:38 am
+  Generated on:           May 20 2025  07:25:00 am
   Module:                 synth_wrapper
   Technology library:     sky130_fd_sc_hd__tt_025C_1v80 1.0000000000
   Operating conditions:   tt_025C_1v80 
@@ -1591,26 +1591,5 @@ Beginning report datapath command
 Warning : The filename, column and line number information will not be available in the report. [RPT_DP-100]
         : The attribute for getting HDL filename and line number is not set.
         : You must set the 'hdl_track_filename_row_col' attribute to 'true' (before elaborate) to enable filename, column, and line number tracking in the datapath report.
-WARNING: This version of the tool is 3473 days old.
-Error   : A required object parameter could not be found. [TUI-61] [parse_options]
-        : An object of type 'inst|hinst|hnet|pin|hpin|port' named 'synth_wrapper' could not be found.
-        : Check to make sure that the object exists and is of the correct type.  The 'what_is' command can be used to determine the type of an object.
-  gui_sv_highlight: highlight objects in schematic viewer 
-
-Usage: gui_sv_highlight [-append] [-center] [-color <string>] [-zoomto] [-from <pin|hpin|port>] [-to <pin|hpin|port>] <inst|hinst|hnet|pin|hpin|port>
-
-    [-append]:
-        append object to highlight list 
-    [-center]:
-        center object on schematic 
-    [-color <string>]:
-        object highlight color 
-    [-zoomto]:
-        zoom into object on schematic 
-    [-from <pin|hpin|port>]:
-        start point of net highlight 
-    [-to <pin|hpin|port>]:
-        end point of net highlight 
-    <inst|hinst|hnet|pin|hpin|port>:
-        object to highlight 
+WARNING: This version of the tool is 3475 days old.
 Normal exit.

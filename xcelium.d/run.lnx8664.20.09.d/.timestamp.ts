@@ -325,7 +325,7 @@
 1714635240 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__or3_2.timing.v
 1714635238 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__lpflow_isobufsrc_2.timing.v
 1714635240 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__nor4bb_4.timing.v
-1747579418 /home/admin/Mount/ALU_synthesis/03_synth/synth_wrapper_gate.v
+1747740301 /home/admin/Mount/ALU_synthesis/03_synth/synth_wrapper_gate.v
 1714635236 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__conb_1.timing.v
 1714635242 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__xnor3_1.timing.v
 1714635240 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__or4b_1.timing.v
@@ -365,7 +365,7 @@
 1714635236 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__clkbuf_8.timing.v
 1714635236 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__a41oi_2.timing.v
 1714635238 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__nand3b_2.timing.v
-1747500515 /home/admin/Mount/ALU_synthesis/01_tb/testbench.v
+1747740278 /home/admin/Mount/ALU_synthesis/01_tb/testbench.v
 1714635236 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__bufbuf_8.timing.v
 1714635238 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__einvp_2.timing.v
 1714635236 /home/admin/Mount/ALU_synthesis/02_sim/cells_timing/gates/sky130_fd_sc_hd__clkdlybuf4s15_2.timing.v

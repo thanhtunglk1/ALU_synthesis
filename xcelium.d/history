@@ -2,6 +2,5 @@
 // File created by:  xrun
 // Do not modify this file
 
-s1::(18May2025:10:44:25):( xrun +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw )
-s2::(18May2025:10:44:55):( xrun gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw )
-s3::(18May2025:10:45:16):( xrun -gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw )
+s1::(20May2025:07:25:17):( xrun +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw )
+s2::(20May2025:07:25:49):( xrun -gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw )

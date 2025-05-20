@@ -458,5 +458,5 @@
 1714635242 /home/admin/Mount/ALU_synthesis/02_sim/models/udp_pwrgood_pp_g/sky130_fd_sc_hd__udp_pwrgood_pp_g.v
 1714635242 /home/admin/Mount/ALU_synthesis/02_sim/models/udp_pwrgood_pp_p/sky130_fd_sc_hd__udp_pwrgood_pp_p.v
 1714635242 /home/admin/Mount/ALU_synthesis/02_sim/models/udp_pwrgood_pp_pg/sky130_fd_sc_hd__udp_pwrgood_pp_pg.v
-1747579418 /home/admin/Mount/ALU_synthesis/03_synth/synth_wrapper_gate.v
-1747500515 /home/admin/Mount/ALU_synthesis/01_tb/testbench.v
+1747740301 /home/admin/Mount/ALU_synthesis/03_synth/synth_wrapper_gate.v
+1747740278 /home/admin/Mount/ALU_synthesis/01_tb/testbench.v

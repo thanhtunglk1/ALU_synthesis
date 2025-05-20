@@ -1,6 +1,6 @@
 module alu_tb();
     // Parameter
-    parameter N = 100; // Số lần random cho mỗi phép toán, có thể sửa đổi
+    parameter N = 100; // Số lần random X
 
     // Signals
     reg clk;
@@ -27,10 +27,10 @@ module alu_tb();
       $shm_probe("AS");
    end
 
-    // Clock generation
+    
     initial begin
         clk = 0;
-        forever #5 clk = ~clk; // 10ns clock period
+        forever #5 clk = ~clk; 
     end
 
     // Test variables
@@ -47,9 +47,8 @@ module alu_tb();
         compare_output = (expected == actual) ? 1 : 0;
     endfunction
 
-    // Test stimulus
+    
     initial begin
-        // Initialize
         rst_n = 0;
         a = 0;
         b = 0;
@@ -65,11 +64,11 @@ module alu_tb();
         for (i = 0; i < 8; i = i + 1) begin
             op = i; // Chọn từng phép toán từ 3'b000 đến 3'b111
             for (j = 0; j < N; j = j + 1) begin
-                #9; // Chờ gần đến cạnh dương (trước 1ns để chuẩn bị)
+                
                 a = $random % 16; // Random 4-bit input a (0 to 15)
                 b = $random % 16; // Random 4-bit input b (0 to 15)
 
-                #31; // Chờ đến cạnh dương để ALU xử lý
+                #31; 
 
                 // Kiểm tra ngõ ra
                 case (op)
